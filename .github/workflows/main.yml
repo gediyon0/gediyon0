@@ -11,14 +11,11 @@ token final=6995402126:AAHHn9GXIOKzJ0nmKc5Jdq7zUqnhROFvmzg
 
 await update, message, reply_text ( እኔ sign ነኝ እሺ😍 ማለት የሚፈልጉት ነገር ካለ ይጠይቁኝ እመልሳለሁ )
 
-
-async def custom_command ( update: update, context: contextType,DEFAULT_Type);
 await update, message, reply_text ( This is a custom command !')
 
 
 #Responses
 
-def  handel_response( text :  STR ) > STR: 
     processed: STR=text. lower ( )
     
     
