@@ -1,35 +1,28 @@
-
- 
 token final=6995402126:AAHHn9GXIOKzJ0nmKc5Jdq7zUqnhROFvmzg
  BOT_USERNAME :final  @Signengineering_bot
  
  async def  start_command ( update)
- await update, message, reply_text ( hello እሺ ስላገኘሁ/ሽ በጣም ደስ ብሎኛል እኔ sign እባላለሁ)
-
-
-await update, message, reply_text ( እኔ sign ነኝ እሺ😍 ማለት የሚፈልጉት ነገር ካለ ይጠይቁኝ እመልሳለሁ )
+ await update, message, reply_text ( hello እሺ ስላገኘሁ/ሽ በጣም ደስ ብሎኛል እኔ sign እባላለሁ)await update, message, reply_text ( እኔ sign ነኝ እሺ😍 ማለት የሚፈልጉት ነገር ካለ ይጠይቁኝ እመልሳለሁ )
 
 await update, message, reply_text ( This is a custom command !')
 
 
-#Responses
-
-    processed: STR=text. lower ( )
+#Response
     
     
     
-     if '(ሰላም).( እንዴት ነህ).(ሀይ), (ሰላም ነው) ' in processed
-     return  ሰላም አለሁ 
+     if 'hi' in processed
+     return  hello 
   
      
      if  ' hello. hi ,  in processed 
      return hey there
      
-     if 'እንዴት ነው ሰላም ነው ' in processed
-     return አለን እና ምን ዓይነት እገዛ እንዳደርግ ይፈልጋሉ 
+     if 'hi'in processed
+     return I'm good 
      
      
-    return   🙄ምን እያሉ እንደሆነ አልገባኝም 🙄
+    return   yes
     
     
     async def handel_message(update: update, context: contextType,DEFAULT_Type);
