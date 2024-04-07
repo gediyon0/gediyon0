@@ -5,11 +5,11 @@ from typeing import final
 token final=6995402126:AAHHn9GXIOKzJ0nmKc5Jdq7zUqnhROFvmzg
  BOT_USERNAME :final  @Signengineering_bot
  
- async def  start_command ( update
+ async def  start_command ( update)
  await update, message, reply_text ( hello እሺ ስላገኘሁ/ሽ በጣም ደስ ብሎኛል እኔ sign እባላለሁ)
 
 
- async def  help_command ( update: update, context: contextType,DEFAULT_Type);
+ async def  help_command ( update: update)
 await update, message, reply_text ( እኔ sign ነኝ እሺ😍 ማለት የሚፈልጉት ነገር ካለ ይጠይቁኝ እመልሳለሁ )
 
 
